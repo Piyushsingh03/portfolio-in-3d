@@ -30,6 +30,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import gym from "./gym.png";
+import airbnb from "./airbnb.png";
+import microsoft from "./microsoft.png";
+
 export {
   logo,
   backend,
@@ -59,4 +63,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  gym,
+  microsoft,
+  airbnb
 };

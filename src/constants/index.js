@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  gym,
+  airbnb,
+  microsoft,
 } from "../assets";
 
 export const navLinks = [
@@ -198,67 +201,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Gym website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web based gym website with interactive user interface, using ReactJs and tailwind CSS.Static interface with user singup functionality. ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
+      // {
+      //   name: "mongodb",
+      //   color: "green-text-gradient",
+      // },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: gym,
+    source_code_link: "https://github.com/Piyushsingh03/portfolio-in-3d",
   },
   {
-    name: "Job IT",
+    name: "Microsoft Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web based Microsoft static web clone with decent looking interface using HTML, CSS from scratch and responsive to all devices.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      // {
+      //   name: "scss",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: microsoft,
+    source_code_link: "https://github.com/Piyushsingh03/intel-inside-microsoft-clone/tree/mainBranch",
+  },
+  {
+    name: "Airbnb clone",
+    description:
+      "An airbnb website clone using React, Tailwind, MongoDB,and Express. Implemented at most every need funtionality such as booking, sign up for user, and adding your hotel.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: airbnb,
+    source_code_link: "https://github.com/Piyushsingh03/airbnb-Clone",
   },
 ];
 
